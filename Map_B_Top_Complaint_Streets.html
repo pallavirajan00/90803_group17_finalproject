@@ -1,0 +1,2486 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_73932f1cc8139cbc4a4e8253ba0f1689 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_73932f1cc8139cbc4a4e8253ba0f1689" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_73932f1cc8139cbc4a4e8253ba0f1689 = L.map(
+                "map_73932f1cc8139cbc4a4e8253ba0f1689",
+                {
+                    center: [40.44139372950669, -79.96680305969664],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_2cc9cc84a34e4dd7e8919a80e191848b = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_2cc9cc84a34e4dd7e8919a80e191848b.addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var marker_5b230acdf0bafe0beafff6dbf82d45dc = L.marker(
+                [40.446265207577696, -79.94534941375932],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_fc4e48eecee98466a48dce7eab35efe9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_eb58c517f87a6ef3bc2c120b74fcf0c6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f844c4309e6799eeb99b8dc0ce9da502 = $(`<div id="html_f844c4309e6799eeb99b8dc0ce9da502" style="width: 100.0%; height: 100.0%;">FIFTH AVE - 878 complaints</div>`)[0];
+                popup_eb58c517f87a6ef3bc2c120b74fcf0c6.setContent(html_f844c4309e6799eeb99b8dc0ce9da502);
+            
+        
+
+        marker_5b230acdf0bafe0beafff6dbf82d45dc.bindPopup(popup_eb58c517f87a6ef3bc2c120b74fcf0c6)
+        ;
+
+        
+    
+    
+            marker_5b230acdf0bafe0beafff6dbf82d45dc.bindTooltip(
+                `<div>
+                     FIFTH AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5b230acdf0bafe0beafff6dbf82d45dc.setIcon(icon_fc4e48eecee98466a48dce7eab35efe9);
+            
+    
+            var marker_03baba760b3b4b9e5390b490a95207b0 = L.marker(
+                [40.458651050867545, -79.939943250845],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_7e7d27d4a448d5ae1842a7f17e30c832 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_47b769286c9542421246637e18132eac = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_11c76fa276c2e0c0282b862078ed1be8 = $(`<div id="html_11c76fa276c2e0c0282b862078ed1be8" style="width: 100.0%; height: 100.0%;">PENN AVE - 850 complaints</div>`)[0];
+                popup_47b769286c9542421246637e18132eac.setContent(html_11c76fa276c2e0c0282b862078ed1be8);
+            
+        
+
+        marker_03baba760b3b4b9e5390b490a95207b0.bindPopup(popup_47b769286c9542421246637e18132eac)
+        ;
+
+        
+    
+    
+            marker_03baba760b3b4b9e5390b490a95207b0.bindTooltip(
+                `<div>
+                     PENN AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_03baba760b3b4b9e5390b490a95207b0.setIcon(icon_7e7d27d4a448d5ae1842a7f17e30c832);
+            
+    
+            var marker_5c33d77b0ccb100dd45ce1069d1d12be = L.marker(
+                [40.457762680688376, -79.9635185611334],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_73b0d26d9d51cb1cff558761be86d66c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9399b4e5782541d80c4aacc7c5e03f3b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_55f7d7f17bae50426f414860d30d9e59 = $(`<div id="html_55f7d7f17bae50426f414860d30d9e59" style="width: 100.0%; height: 100.0%;">LIBERTY AVE - 652 complaints</div>`)[0];
+                popup_9399b4e5782541d80c4aacc7c5e03f3b.setContent(html_55f7d7f17bae50426f414860d30d9e59);
+            
+        
+
+        marker_5c33d77b0ccb100dd45ce1069d1d12be.bindPopup(popup_9399b4e5782541d80c4aacc7c5e03f3b)
+        ;
+
+        
+    
+    
+            marker_5c33d77b0ccb100dd45ce1069d1d12be.bindTooltip(
+                `<div>
+                     LIBERTY AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5c33d77b0ccb100dd45ce1069d1d12be.setIcon(icon_73b0d26d9d51cb1cff558761be86d66c);
+            
+    
+            var marker_208d544520ae852f21a8e173f1af487a = L.marker(
+                [40.43989290446566, -79.94328382883053],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_06cdaaab42d59a8dc9d6fab24bd227fc = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0526aa273e505eaaba15274c01bbf11 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9bce8ca4d65e8feea3e0dec28ab8396c = $(`<div id="html_9bce8ca4d65e8feea3e0dec28ab8396c" style="width: 100.0%; height: 100.0%;">FORBES AVE - 605 complaints</div>`)[0];
+                popup_f0526aa273e505eaaba15274c01bbf11.setContent(html_9bce8ca4d65e8feea3e0dec28ab8396c);
+            
+        
+
+        marker_208d544520ae852f21a8e173f1af487a.bindPopup(popup_f0526aa273e505eaaba15274c01bbf11)
+        ;
+
+        
+    
+    
+            marker_208d544520ae852f21a8e173f1af487a.bindTooltip(
+                `<div>
+                     FORBES AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_208d544520ae852f21a8e173f1af487a.setIcon(icon_06cdaaab42d59a8dc9d6fab24bd227fc);
+            
+    
+            var marker_abdbab47b64d2da3c298a0151412ae0a = L.marker(
+                [40.45241943692973, -79.9501091727288],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_9ef4e32b521ef11ab750c38a3bd739be = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4f538b5c5ed51f71450781c0e7b8a7fa = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_dfa3d33d4d05702746196e3b78403ccf = $(`<div id="html_dfa3d33d4d05702746196e3b78403ccf" style="width: 100.0%; height: 100.0%;">CENTRE AVE - 602 complaints</div>`)[0];
+                popup_4f538b5c5ed51f71450781c0e7b8a7fa.setContent(html_dfa3d33d4d05702746196e3b78403ccf);
+            
+        
+
+        marker_abdbab47b64d2da3c298a0151412ae0a.bindPopup(popup_4f538b5c5ed51f71450781c0e7b8a7fa)
+        ;
+
+        
+    
+    
+            marker_abdbab47b64d2da3c298a0151412ae0a.bindTooltip(
+                `<div>
+                     CENTRE AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_abdbab47b64d2da3c298a0151412ae0a.setIcon(icon_9ef4e32b521ef11ab750c38a3bd739be);
+            
+    
+            var marker_c0f86271be10542dcadfa22ecddb20db = L.marker(
+                [40.436135680690015, -79.92036142095057],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_3df489856ccc4ab073bed76a83f37d4d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e5a48319422ba1e594cdc5a670bf4135 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a034930d6dd7508c979ce0a84326ddda = $(`<div id="html_a034930d6dd7508c979ce0a84326ddda" style="width: 100.0%; height: 100.0%;">SHADY AVE - 515 complaints</div>`)[0];
+                popup_e5a48319422ba1e594cdc5a670bf4135.setContent(html_a034930d6dd7508c979ce0a84326ddda);
+            
+        
+
+        marker_c0f86271be10542dcadfa22ecddb20db.bindPopup(popup_e5a48319422ba1e594cdc5a670bf4135)
+        ;
+
+        
+    
+    
+            marker_c0f86271be10542dcadfa22ecddb20db.bindTooltip(
+                `<div>
+                     SHADY AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c0f86271be10542dcadfa22ecddb20db.setIcon(icon_3df489856ccc4ab073bed76a83f37d4d);
+            
+    
+            var marker_229a1c80c8e1a6c4c0c7ac3b7a1afca9 = L.marker(
+                [40.4632127429481, -79.94516612364372],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_edd73a151ef338b106887ff8b254911f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_afce52fdabc6b1921e3d8eca1c836792 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5e544afefd229276dce847033d98a212 = $(`<div id="html_5e544afefd229276dce847033d98a212" style="width: 100.0%; height: 100.0%;">FRIENDSHIP AVE - 497 complaints</div>`)[0];
+                popup_afce52fdabc6b1921e3d8eca1c836792.setContent(html_5e544afefd229276dce847033d98a212);
+            
+        
+
+        marker_229a1c80c8e1a6c4c0c7ac3b7a1afca9.bindPopup(popup_afce52fdabc6b1921e3d8eca1c836792)
+        ;
+
+        
+    
+    
+            marker_229a1c80c8e1a6c4c0c7ac3b7a1afca9.bindTooltip(
+                `<div>
+                     FRIENDSHIP AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_229a1c80c8e1a6c4c0c7ac3b7a1afca9.setIcon(icon_edd73a151ef338b106887ff8b254911f);
+            
+    
+            var marker_705cff4aa8ba2a0d9d4f27ffe6956445 = L.marker(
+                [40.4308990833433, -79.92044025773455],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_2d0f70729c6acc8acb98e338d942be0a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_01b9f9206b82946376645853678a2425 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_227e0a10516c1bbb10b223a9e510b1a1 = $(`<div id="html_227e0a10516c1bbb10b223a9e510b1a1" style="width: 100.0%; height: 100.0%;">BEECHWOOD BLVD - 477 complaints</div>`)[0];
+                popup_01b9f9206b82946376645853678a2425.setContent(html_227e0a10516c1bbb10b223a9e510b1a1);
+            
+        
+
+        marker_705cff4aa8ba2a0d9d4f27ffe6956445.bindPopup(popup_01b9f9206b82946376645853678a2425)
+        ;
+
+        
+    
+    
+            marker_705cff4aa8ba2a0d9d4f27ffe6956445.bindTooltip(
+                `<div>
+                     BEECHWOOD BLVD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_705cff4aa8ba2a0d9d4f27ffe6956445.setIcon(icon_2d0f70729c6acc8acb98e338d942be0a);
+            
+    
+            var marker_3bb0a52a1528c91ff316fb83e2f6c558 = L.marker(
+                [40.48324668713454, -79.94209922516227],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_623e9f2a676529ded9217ac658269216 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8540ad451d63ce75caafcce20f7b7f62 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_cdc5b3b9048d1c118a2ce9e833006957 = $(`<div id="html_cdc5b3b9048d1c118a2ce9e833006957" style="width: 100.0%; height: 100.0%;">BUTLER ST - 349 complaints</div>`)[0];
+                popup_8540ad451d63ce75caafcce20f7b7f62.setContent(html_cdc5b3b9048d1c118a2ce9e833006957);
+            
+        
+
+        marker_3bb0a52a1528c91ff316fb83e2f6c558.bindPopup(popup_8540ad451d63ce75caafcce20f7b7f62)
+        ;
+
+        
+    
+    
+            marker_3bb0a52a1528c91ff316fb83e2f6c558.bindTooltip(
+                `<div>
+                     BUTLER ST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3bb0a52a1528c91ff316fb83e2f6c558.setIcon(icon_623e9f2a676529ded9217ac658269216);
+            
+    
+            var marker_e53e08e456d262f85a1c069f0372f01f = L.marker(
+                [40.451711458243565, -79.96639563933799],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_d482b01a33fad56efddfd1f0af0a6ae6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fbf00021698ec1a274f9b7a7be214cf8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d1b7c15d07e1600e557a2856aa40edd0 = $(`<div id="html_d1b7c15d07e1600e557a2856aa40edd0" style="width: 100.0%; height: 100.0%;">BIGELOW BLVD - 307 complaints</div>`)[0];
+                popup_fbf00021698ec1a274f9b7a7be214cf8.setContent(html_d1b7c15d07e1600e557a2856aa40edd0);
+            
+        
+
+        marker_e53e08e456d262f85a1c069f0372f01f.bindPopup(popup_fbf00021698ec1a274f9b7a7be214cf8)
+        ;
+
+        
+    
+    
+            marker_e53e08e456d262f85a1c069f0372f01f.bindTooltip(
+                `<div>
+                     BIGELOW BLVD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e53e08e456d262f85a1c069f0372f01f.setIcon(icon_d482b01a33fad56efddfd1f0af0a6ae6);
+            
+    
+            var marker_6d96ba36e1e975b548b41ad31df26bb3 = L.marker(
+                [40.476745256345, -79.93661344804251],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_72732b535e9112f4bc4af61d5fb4105b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f6595917128e370dca3837e87205faa7 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_caddd3d7c91d0c3cd17cb977d367602c = $(`<div id="html_caddd3d7c91d0c3cd17cb977d367602c" style="width: 100.0%; height: 100.0%;">STANTON AVE - 272 complaints</div>`)[0];
+                popup_f6595917128e370dca3837e87205faa7.setContent(html_caddd3d7c91d0c3cd17cb977d367602c);
+            
+        
+
+        marker_6d96ba36e1e975b548b41ad31df26bb3.bindPopup(popup_f6595917128e370dca3837e87205faa7)
+        ;
+
+        
+    
+    
+            marker_6d96ba36e1e975b548b41ad31df26bb3.bindTooltip(
+                `<div>
+                     STANTON AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6d96ba36e1e975b548b41ad31df26bb3.setIcon(icon_72732b535e9112f4bc4af61d5fb4105b);
+            
+    
+            var marker_1285dccfadc6303e8ecbdf92ff9e938c = L.marker(
+                [40.48196402440815, -79.9295436903663],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_2a11c96327f1aea293dffdba644c24eb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ebfa4e5463cb8a4e71ad0c106d315b12 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_d6520ff516676ff6b16fe2858afb4696 = $(`<div id="html_d6520ff516676ff6b16fe2858afb4696" style="width: 100.0%; height: 100.0%;">MORNINGSIDE AVE - 268 complaints</div>`)[0];
+                popup_ebfa4e5463cb8a4e71ad0c106d315b12.setContent(html_d6520ff516676ff6b16fe2858afb4696);
+            
+        
+
+        marker_1285dccfadc6303e8ecbdf92ff9e938c.bindPopup(popup_ebfa4e5463cb8a4e71ad0c106d315b12)
+        ;
+
+        
+    
+    
+            marker_1285dccfadc6303e8ecbdf92ff9e938c.bindTooltip(
+                `<div>
+                     MORNINGSIDE AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1285dccfadc6303e8ecbdf92ff9e938c.setIcon(icon_2a11c96327f1aea293dffdba644c24eb);
+            
+    
+            var marker_4224b9763354c2731c833bb3b3d5ba91 = L.marker(
+                [40.46934387771121, -79.98973703851227],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_4509997e210fda97eee96a7a625a35f1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e26892961bc71fc7f41c381886106f22 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7ac190286990124a92acdfb82f5c3049 = $(`<div id="html_7ac190286990124a92acdfb82f5c3049" style="width: 100.0%; height: 100.0%;">SPRING GARDEN AVE - 268 complaints</div>`)[0];
+                popup_e26892961bc71fc7f41c381886106f22.setContent(html_7ac190286990124a92acdfb82f5c3049);
+            
+        
+
+        marker_4224b9763354c2731c833bb3b3d5ba91.bindPopup(popup_e26892961bc71fc7f41c381886106f22)
+        ;
+
+        
+    
+    
+            marker_4224b9763354c2731c833bb3b3d5ba91.bindTooltip(
+                `<div>
+                     SPRING GARDEN AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4224b9763354c2731c833bb3b3d5ba91.setIcon(icon_4509997e210fda97eee96a7a625a35f1);
+            
+    
+            var marker_dcc77a30e6f3ab43054f09a4b6bc5ddb = L.marker(
+                [40.475952989681105, -80.03052425160193],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_d0d5c12c3f586d7e171b5047ee4393a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_06b3117c821d2f29917011654927c0d3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a058c642a36359a9092d3df6c7123e6a = $(`<div id="html_a058c642a36359a9092d3df6c7123e6a" style="width: 100.0%; height: 100.0%;">BRIGHTON RD - 264 complaints</div>`)[0];
+                popup_06b3117c821d2f29917011654927c0d3.setContent(html_a058c642a36359a9092d3df6c7123e6a);
+            
+        
+
+        marker_dcc77a30e6f3ab43054f09a4b6bc5ddb.bindPopup(popup_06b3117c821d2f29917011654927c0d3)
+        ;
+
+        
+    
+    
+            marker_dcc77a30e6f3ab43054f09a4b6bc5ddb.bindTooltip(
+                `<div>
+                     BRIGHTON RD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_dcc77a30e6f3ab43054f09a4b6bc5ddb.setIcon(icon_d0d5c12c3f586d7e171b5047ee4393a9);
+            
+    
+            var marker_f88754f16e1010a7a93d9e6a1ab29c6b = L.marker(
+                [40.4567842030481, -79.93961930537647],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_b59c4993d0ad0bfaf02d4045722424e1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3026a75bf4f56027188b7c17558d76a3 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_44235e783ce83aafca790bca19b3f329 = $(`<div id="html_44235e783ce83aafca790bca19b3f329" style="width: 100.0%; height: 100.0%;">BAUM BLVD - 244 complaints</div>`)[0];
+                popup_3026a75bf4f56027188b7c17558d76a3.setContent(html_44235e783ce83aafca790bca19b3f329);
+            
+        
+
+        marker_f88754f16e1010a7a93d9e6a1ab29c6b.bindPopup(popup_3026a75bf4f56027188b7c17558d76a3)
+        ;
+
+        
+    
+    
+            marker_f88754f16e1010a7a93d9e6a1ab29c6b.bindTooltip(
+                `<div>
+                     BAUM BLVD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_f88754f16e1010a7a93d9e6a1ab29c6b.setIcon(icon_b59c4993d0ad0bfaf02d4045722424e1);
+            
+    
+            var marker_30b4837a79a700d6f060755702454377 = L.marker(
+                [40.45241672425539, -79.93080108709407],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_e1c983aeebea5d4466c3adccfa114d7b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_634eafecee0e24dfbc53adb7fb13a9dc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_4c78d9a227159390f8b7680f0063d036 = $(`<div id="html_4c78d9a227159390f8b7680f0063d036" style="width: 100.0%; height: 100.0%;">S NEGLEY AVE - 243 complaints</div>`)[0];
+                popup_634eafecee0e24dfbc53adb7fb13a9dc.setContent(html_4c78d9a227159390f8b7680f0063d036);
+            
+        
+
+        marker_30b4837a79a700d6f060755702454377.bindPopup(popup_634eafecee0e24dfbc53adb7fb13a9dc)
+        ;
+
+        
+    
+    
+            marker_30b4837a79a700d6f060755702454377.bindTooltip(
+                `<div>
+                     S NEGLEY AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_30b4837a79a700d6f060755702454377.setIcon(icon_e1c983aeebea5d4466c3adccfa114d7b);
+            
+    
+            var marker_26891dd026009bbbd330bf9d87a91232 = L.marker(
+                [40.44704007714596, -79.94281976353462],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_bead4bb87f4642e365e574aa2b36e016 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a36346c4042022f3c144b527727a68c8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7e79dc1d6b2c4e0d41dd5e7684f16fe5 = $(`<div id="html_7e79dc1d6b2c4e0d41dd5e7684f16fe5" style="width: 100.0%; height: 100.0%;">5TH AVE - 237 complaints</div>`)[0];
+                popup_a36346c4042022f3c144b527727a68c8.setContent(html_7e79dc1d6b2c4e0d41dd5e7684f16fe5);
+            
+        
+
+        marker_26891dd026009bbbd330bf9d87a91232.bindPopup(popup_a36346c4042022f3c144b527727a68c8)
+        ;
+
+        
+    
+    
+            marker_26891dd026009bbbd330bf9d87a91232.bindTooltip(
+                `<div>
+                     5TH AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_26891dd026009bbbd330bf9d87a91232.setIcon(icon_bead4bb87f4642e365e574aa2b36e016);
+            
+    
+            var marker_7e8ae1a7db793c41f78b36666fbe9586 = L.marker(
+                [40.47003037148992, -79.92073904324295],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_83f20c0217f2fae55cb423cfa95ef1db = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_37b4d29a7518624c27d8e7325c1129b8 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_60e6952f9ac19ab0d09688cfc54de74f = $(`<div id="html_60e6952f9ac19ab0d09688cfc54de74f" style="width: 100.0%; height: 100.0%;">N HIGHLAND AVE - 223 complaints</div>`)[0];
+                popup_37b4d29a7518624c27d8e7325c1129b8.setContent(html_60e6952f9ac19ab0d09688cfc54de74f);
+            
+        
+
+        marker_7e8ae1a7db793c41f78b36666fbe9586.bindPopup(popup_37b4d29a7518624c27d8e7325c1129b8)
+        ;
+
+        
+    
+    
+            marker_7e8ae1a7db793c41f78b36666fbe9586.bindTooltip(
+                `<div>
+                     N HIGHLAND AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7e8ae1a7db793c41f78b36666fbe9586.setIcon(icon_83f20c0217f2fae55cb423cfa95ef1db);
+            
+    
+            var marker_2a69d2251b00320135d2e94a8b20446b = L.marker(
+                [40.445279239716406, -79.92644681894934],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_a161f6e2cf850eb44b587fe51d9bd566 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65429280fa0af862e3b828350db973d6 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_a294fb8c9b0c7c046c5b1f210f70e447 = $(`<div id="html_a294fb8c9b0c7c046c5b1f210f70e447" style="width: 100.0%; height: 100.0%;">WILKINS AVE - 215 complaints</div>`)[0];
+                popup_65429280fa0af862e3b828350db973d6.setContent(html_a294fb8c9b0c7c046c5b1f210f70e447);
+            
+        
+
+        marker_2a69d2251b00320135d2e94a8b20446b.bindPopup(popup_65429280fa0af862e3b828350db973d6)
+        ;
+
+        
+    
+    
+            marker_2a69d2251b00320135d2e94a8b20446b.bindTooltip(
+                `<div>
+                     WILKINS AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2a69d2251b00320135d2e94a8b20446b.setIcon(icon_a161f6e2cf850eb44b587fe51d9bd566);
+            
+    
+            var marker_9b8425e68f0e5fe38479be3e5f5f3077 = L.marker(
+                [40.371591186937074, -79.91187964146394],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_cce4e507b01bdb4ad620957d1d41750a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_090fac60b826a6df3250076eaad262ba = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_355335b2f772f7f394964cabb3254b71 = $(`<div id="html_355335b2f772f7f394964cabb3254b71" style="width: 100.0%; height: 100.0%;">INTERBORO AVE - 211 complaints</div>`)[0];
+                popup_090fac60b826a6df3250076eaad262ba.setContent(html_355335b2f772f7f394964cabb3254b71);
+            
+        
+
+        marker_9b8425e68f0e5fe38479be3e5f5f3077.bindPopup(popup_090fac60b826a6df3250076eaad262ba)
+        ;
+
+        
+    
+    
+            marker_9b8425e68f0e5fe38479be3e5f5f3077.bindTooltip(
+                `<div>
+                     INTERBORO AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9b8425e68f0e5fe38479be3e5f5f3077.setIcon(icon_cce4e507b01bdb4ad620957d1d41750a);
+            
+    
+            var marker_e23f331fd2686790e515dff18f640cb1 = L.marker(
+                [40.40087775364897, -80.01992267973247],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_1331d39819edf90075fbd35cc0d23ff8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_27024583c7091f1bf0ba7e4ab90b5419 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5278cf6cbe58a6cb460a394c30b4f6b3 = $(`<div id="html_5278cf6cbe58a6cb460a394c30b4f6b3" style="width: 100.0%; height: 100.0%;">PIONEER AVE - 211 complaints</div>`)[0];
+                popup_27024583c7091f1bf0ba7e4ab90b5419.setContent(html_5278cf6cbe58a6cb460a394c30b4f6b3);
+            
+        
+
+        marker_e23f331fd2686790e515dff18f640cb1.bindPopup(popup_27024583c7091f1bf0ba7e4ab90b5419)
+        ;
+
+        
+    
+    
+            marker_e23f331fd2686790e515dff18f640cb1.bindTooltip(
+                `<div>
+                     PIONEER AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e23f331fd2686790e515dff18f640cb1.setIcon(icon_1331d39819edf90075fbd35cc0d23ff8);
+            
+    
+            var marker_4ba0f51097ed9b268ba7e02b6c9e5ae4 = L.marker(
+                [40.42288573265909, -79.98844450192637],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_e7a6c7ffaeee1e913d262f400224f6a0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dbd7fcf2dda4dbf1e5120e352ad24c59 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_604cfc7f912b6932646511642e2890aa = $(`<div id="html_604cfc7f912b6932646511642e2890aa" style="width: 100.0%; height: 100.0%;">ARLINGTON AVE - 209 complaints</div>`)[0];
+                popup_dbd7fcf2dda4dbf1e5120e352ad24c59.setContent(html_604cfc7f912b6932646511642e2890aa);
+            
+        
+
+        marker_4ba0f51097ed9b268ba7e02b6c9e5ae4.bindPopup(popup_dbd7fcf2dda4dbf1e5120e352ad24c59)
+        ;
+
+        
+    
+    
+            marker_4ba0f51097ed9b268ba7e02b6c9e5ae4.bindTooltip(
+                `<div>
+                     ARLINGTON AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4ba0f51097ed9b268ba7e02b6c9e5ae4.setIcon(icon_e7a6c7ffaeee1e913d262f400224f6a0);
+            
+    
+            var marker_d14bf3307c1494d4b44f0f4d25fae0cd = L.marker(
+                [40.453251492819774, -79.98296824317991],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_fb3425eb4be8ad5db51a820c3ac469e2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f71a083dedba6d0fa5fc9e0ddd2f136f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_79fd20bc1a359bba751e2c70d945c6d3 = $(`<div id="html_79fd20bc1a359bba751e2c70d945c6d3" style="width: 100.0%; height: 100.0%;">SMALLMAN ST - 209 complaints</div>`)[0];
+                popup_f71a083dedba6d0fa5fc9e0ddd2f136f.setContent(html_79fd20bc1a359bba751e2c70d945c6d3);
+            
+        
+
+        marker_d14bf3307c1494d4b44f0f4d25fae0cd.bindPopup(popup_f71a083dedba6d0fa5fc9e0ddd2f136f)
+        ;
+
+        
+    
+    
+            marker_d14bf3307c1494d4b44f0f4d25fae0cd.bindTooltip(
+                `<div>
+                     SMALLMAN ST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d14bf3307c1494d4b44f0f4d25fae0cd.setIcon(icon_fb3425eb4be8ad5db51a820c3ac469e2);
+            
+    
+            var marker_b3465f5aa15c4a2783bd85893397dc76 = L.marker(
+                [40.43001825669771, -79.96882896677845],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_8ac2dcff087217811f7073a88086a68a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_62dbcd00b179ae1af9232e3b4a780ce1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e30dc725a73771eccfaad88af8bf9f45 = $(`<div id="html_e30dc725a73771eccfaad88af8bf9f45" style="width: 100.0%; height: 100.0%;">SECOND AVENUE - 199 complaints</div>`)[0];
+                popup_62dbcd00b179ae1af9232e3b4a780ce1.setContent(html_e30dc725a73771eccfaad88af8bf9f45);
+            
+        
+
+        marker_b3465f5aa15c4a2783bd85893397dc76.bindPopup(popup_62dbcd00b179ae1af9232e3b4a780ce1)
+        ;
+
+        
+    
+    
+            marker_b3465f5aa15c4a2783bd85893397dc76.bindTooltip(
+                `<div>
+                     SECOND AVENUE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b3465f5aa15c4a2783bd85893397dc76.setIcon(icon_8ac2dcff087217811f7073a88086a68a);
+            
+    
+            var marker_4e9f01f758eb80717569d7d53cec7165 = L.marker(
+                [40.46820252518984, -79.96178493686115],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_0cf688a061da520241d3d936f89e8c15 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e29281e878d0bea1ed2ab334c42af3e5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f7fac81895e68df750516ea21472b9f8 = $(`<div id="html_f7fac81895e68df750516ea21472b9f8" style="width: 100.0%; height: 100.0%;">40TH ST - 195 complaints</div>`)[0];
+                popup_e29281e878d0bea1ed2ab334c42af3e5.setContent(html_f7fac81895e68df750516ea21472b9f8);
+            
+        
+
+        marker_4e9f01f758eb80717569d7d53cec7165.bindPopup(popup_e29281e878d0bea1ed2ab334c42af3e5)
+        ;
+
+        
+    
+    
+            marker_4e9f01f758eb80717569d7d53cec7165.bindTooltip(
+                `<div>
+                     40TH ST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4e9f01f758eb80717569d7d53cec7165.setIcon(icon_0cf688a061da520241d3d936f89e8c15);
+            
+    
+            var marker_ce2de34e8221eb982f19a90f437f55c0 = L.marker(
+                [40.4287333659229, -79.91833797277152],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_c54d7788147a02090ec6ad6576cd5b4f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_20554f7b4f6e91326f9e01c4e3dc6f43 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ea6c04b256d2e9c54b51f68b6cd3f297 = $(`<div id="html_ea6c04b256d2e9c54b51f68b6cd3f297" style="width: 100.0%; height: 100.0%;">FORWARD AVE - 194 complaints</div>`)[0];
+                popup_20554f7b4f6e91326f9e01c4e3dc6f43.setContent(html_ea6c04b256d2e9c54b51f68b6cd3f297);
+            
+        
+
+        marker_ce2de34e8221eb982f19a90f437f55c0.bindPopup(popup_20554f7b4f6e91326f9e01c4e3dc6f43)
+        ;
+
+        
+    
+    
+            marker_ce2de34e8221eb982f19a90f437f55c0.bindTooltip(
+                `<div>
+                     FORWARD AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_ce2de34e8221eb982f19a90f437f55c0.setIcon(icon_c54d7788147a02090ec6ad6576cd5b4f);
+            
+    
+            var marker_1fb616dfd4efb91b3abb31fbb7910a3e = L.marker(
+                [40.45543832435685, -79.96530825563238],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_a0dafc85a509af414cf3430f64f3c8a9 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_24a501ccb31d4810ea7a6ec483dd8061 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f01f986d06a16be2392cc6d3223d2b86 = $(`<div id="html_f01f986d06a16be2392cc6d3223d2b86" style="width: 100.0%; height: 100.0%;">HERRON AVE - 189 complaints</div>`)[0];
+                popup_24a501ccb31d4810ea7a6ec483dd8061.setContent(html_f01f986d06a16be2392cc6d3223d2b86);
+            
+        
+
+        marker_1fb616dfd4efb91b3abb31fbb7910a3e.bindPopup(popup_24a501ccb31d4810ea7a6ec483dd8061)
+        ;
+
+        
+    
+    
+            marker_1fb616dfd4efb91b3abb31fbb7910a3e.bindTooltip(
+                `<div>
+                     HERRON AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1fb616dfd4efb91b3abb31fbb7910a3e.setIcon(icon_a0dafc85a509af414cf3430f64f3c8a9);
+            
+    
+            var marker_5a260b5afdf88884e3582c7d4d4abba5 = L.marker(
+                [40.45110184698954, -79.94407055040914],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_1b85ddabfd5af1178ef6fb12ea35794a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72650391484fab2ed7d4640113305a0d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_35da5d55925aebf611118cbc295632c5 = $(`<div id="html_35da5d55925aebf611118cbc295632c5" style="width: 100.0%; height: 100.0%;">MOREWOOD AVE - 183 complaints</div>`)[0];
+                popup_72650391484fab2ed7d4640113305a0d.setContent(html_35da5d55925aebf611118cbc295632c5);
+            
+        
+
+        marker_5a260b5afdf88884e3582c7d4d4abba5.bindPopup(popup_72650391484fab2ed7d4640113305a0d)
+        ;
+
+        
+    
+    
+            marker_5a260b5afdf88884e3582c7d4d4abba5.bindTooltip(
+                `<div>
+                     MOREWOOD AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5a260b5afdf88884e3582c7d4d4abba5.setIcon(icon_1b85ddabfd5af1178ef6fb12ea35794a);
+            
+    
+            var marker_97de6eca58ad1328616259d7711c1d47 = L.marker(
+                [40.478634991369134, -79.93942563190211],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_3cce1ace6482c7f017aad9b68574f074 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c431de35b5e8b8080fd57ea5e7de8f7f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c6e3d9b1186facc017b75fb6cd945a7b = $(`<div id="html_c6e3d9b1186facc017b75fb6cd945a7b" style="width: 100.0%; height: 100.0%;">COLERIDGE ST - 181 complaints</div>`)[0];
+                popup_c431de35b5e8b8080fd57ea5e7de8f7f.setContent(html_c6e3d9b1186facc017b75fb6cd945a7b);
+            
+        
+
+        marker_97de6eca58ad1328616259d7711c1d47.bindPopup(popup_c431de35b5e8b8080fd57ea5e7de8f7f)
+        ;
+
+        
+    
+    
+            marker_97de6eca58ad1328616259d7711c1d47.bindTooltip(
+                `<div>
+                     COLERIDGE ST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_97de6eca58ad1328616259d7711c1d47.setIcon(icon_3cce1ace6482c7f017aad9b68574f074);
+            
+    
+            var marker_09b7edd329632b5cec0716af15cd37d4 = L.marker(
+                [40.391355161375415, -79.98478174231353],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_2378b1ee9a57cc8ec32f2f4edeb8eb24 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_331ea1a78399716b364203ab87c122ee = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e169f2cbeebdfbaff1dddea239c2af4e = $(`<div id="html_e169f2cbeebdfbaff1dddea239c2af4e" style="width: 100.0%; height: 100.0%;">BROWNSVILLE RD - 180 complaints</div>`)[0];
+                popup_331ea1a78399716b364203ab87c122ee.setContent(html_e169f2cbeebdfbaff1dddea239c2af4e);
+            
+        
+
+        marker_09b7edd329632b5cec0716af15cd37d4.bindPopup(popup_331ea1a78399716b364203ab87c122ee)
+        ;
+
+        
+    
+    
+            marker_09b7edd329632b5cec0716af15cd37d4.bindTooltip(
+                `<div>
+                     BROWNSVILLE RD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_09b7edd329632b5cec0716af15cd37d4.setIcon(icon_2378b1ee9a57cc8ec32f2f4edeb8eb24);
+            
+    
+            var marker_21db9884fde24069b72b3478e76157ef = L.marker(
+                [40.41673821954371, -80.02795799465501],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_c7ae10e71a7f9696577a08e1374d525e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f18a25527a80bf523f328a22456a2331 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c0be080e218818686d9d79f40fae5820 = $(`<div id="html_c0be080e218818686d9d79f40fae5820" style="width: 100.0%; height: 100.0%;">CRANE AVE - 175 complaints</div>`)[0];
+                popup_f18a25527a80bf523f328a22456a2331.setContent(html_c0be080e218818686d9d79f40fae5820);
+            
+        
+
+        marker_21db9884fde24069b72b3478e76157ef.bindPopup(popup_f18a25527a80bf523f328a22456a2331)
+        ;
+
+        
+    
+    
+            marker_21db9884fde24069b72b3478e76157ef.bindTooltip(
+                `<div>
+                     CRANE AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_21db9884fde24069b72b3478e76157ef.setIcon(icon_c7ae10e71a7f9696577a08e1374d525e);
+            
+    
+            var marker_3ac7d568016ce95cdf412017d6d0b84e = L.marker(
+                [40.43570413694142, -79.92755486701935],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_7529896a31b337770923c87f8e08b950 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ad657af2a4fd5bb99458aa0be58ae46b = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_796a03bf2f8b45e34037a01f4f92c278 = $(`<div id="html_796a03bf2f8b45e34037a01f4f92c278" style="width: 100.0%; height: 100.0%;">WIGHTMAN ST - 174 complaints</div>`)[0];
+                popup_ad657af2a4fd5bb99458aa0be58ae46b.setContent(html_796a03bf2f8b45e34037a01f4f92c278);
+            
+        
+
+        marker_3ac7d568016ce95cdf412017d6d0b84e.bindPopup(popup_ad657af2a4fd5bb99458aa0be58ae46b)
+        ;
+
+        
+    
+    
+            marker_3ac7d568016ce95cdf412017d6d0b84e.bindTooltip(
+                `<div>
+                     WIGHTMAN ST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3ac7d568016ce95cdf412017d6d0b84e.setIcon(icon_7529896a31b337770923c87f8e08b950);
+            
+    
+            var marker_188a93a7ff6b6da3e7b6eaf1ec309146 = L.marker(
+                [40.41647348596244, -79.93633635437834],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_1c2f453e13d1c2db4b2138de97d637da = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_447e33869b87715371d3d5de0c88148d = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_441a8a3c16a063aba8c074b06fa4ab1e = $(`<div id="html_441a8a3c16a063aba8c074b06fa4ab1e" style="width: 100.0%; height: 100.0%;">HAZELWOOD AVE - 163 complaints</div>`)[0];
+                popup_447e33869b87715371d3d5de0c88148d.setContent(html_441a8a3c16a063aba8c074b06fa4ab1e);
+            
+        
+
+        marker_188a93a7ff6b6da3e7b6eaf1ec309146.bindPopup(popup_447e33869b87715371d3d5de0c88148d)
+        ;
+
+        
+    
+    
+            marker_188a93a7ff6b6da3e7b6eaf1ec309146.bindTooltip(
+                `<div>
+                     HAZELWOOD AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_188a93a7ff6b6da3e7b6eaf1ec309146.setIcon(icon_1c2f453e13d1c2db4b2138de97d637da);
+            
+    
+            var marker_3c1de056de2aab3bbacd979bd72b50c5 = L.marker(
+                [40.47989322851425, -79.94051750037185],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_6690bae42ecd91877cea46005c551a74 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f4373bccbc0c4e0aa665c3b3eb00028 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7600c4de0135170f062c26323051d144 = $(`<div id="html_7600c4de0135170f062c26323051d144" style="width: 100.0%; height: 100.0%;">WOODBINE ST - 162 complaints</div>`)[0];
+                popup_3f4373bccbc0c4e0aa665c3b3eb00028.setContent(html_7600c4de0135170f062c26323051d144);
+            
+        
+
+        marker_3c1de056de2aab3bbacd979bd72b50c5.bindPopup(popup_3f4373bccbc0c4e0aa665c3b3eb00028)
+        ;
+
+        
+    
+    
+            marker_3c1de056de2aab3bbacd979bd72b50c5.bindTooltip(
+                `<div>
+                     WOODBINE ST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_3c1de056de2aab3bbacd979bd72b50c5.setIcon(icon_6690bae42ecd91877cea46005c551a74);
+            
+    
+            var marker_1d119d46462038c8a8da46b30ec47df6 = L.marker(
+                [40.42441947874816, -79.93798467447748],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_b02eff563cb73ab3121f3212df80609c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_449c243b255d50e6e2f88b799123c8e1 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_5ea4a5ca127139afa214d452a0e4e799 = $(`<div id="html_5ea4a5ca127139afa214d452a0e4e799" style="width: 100.0%; height: 100.0%;">GREENFIELD AVE - 161 complaints</div>`)[0];
+                popup_449c243b255d50e6e2f88b799123c8e1.setContent(html_5ea4a5ca127139afa214d452a0e4e799);
+            
+        
+
+        marker_1d119d46462038c8a8da46b30ec47df6.bindPopup(popup_449c243b255d50e6e2f88b799123c8e1)
+        ;
+
+        
+    
+    
+            marker_1d119d46462038c8a8da46b30ec47df6.bindTooltip(
+                `<div>
+                     GREENFIELD AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1d119d46462038c8a8da46b30ec47df6.setIcon(icon_b02eff563cb73ab3121f3212df80609c);
+            
+    
+            var marker_0633d30b5d6a8e3dbdf9a5b4b5846592 = L.marker(
+                [40.45203298106108, -79.90341683216646],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_fab736aa0561d6007eeaf5bd098b4421 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f4b871986136671ac8389907c80c7782 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_c8874da8b04fa87294a8c3b4f2db12b7 = $(`<div id="html_c8874da8b04fa87294a8c3b4f2db12b7" style="width: 100.0%; height: 100.0%;">THOMAS BLVD - 159 complaints</div>`)[0];
+                popup_f4b871986136671ac8389907c80c7782.setContent(html_c8874da8b04fa87294a8c3b4f2db12b7);
+            
+        
+
+        marker_0633d30b5d6a8e3dbdf9a5b4b5846592.bindPopup(popup_f4b871986136671ac8389907c80c7782)
+        ;
+
+        
+    
+    
+            marker_0633d30b5d6a8e3dbdf9a5b4b5846592.bindTooltip(
+                `<div>
+                     THOMAS BLVD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0633d30b5d6a8e3dbdf9a5b4b5846592.setIcon(icon_fab736aa0561d6007eeaf5bd098b4421);
+            
+    
+            var marker_8ac68b4003ac4316be4c0de4d3431264 = L.marker(
+                [40.38444637148423, -79.98572195146244],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_cb5603f9da8d79e2c799d6531d9f67ac = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d03b2299cfbec809440131059412a3c0 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b92511ed76524b6f31e105027d1c8af5 = $(`<div id="html_b92511ed76524b6f31e105027d1c8af5" style="width: 100.0%; height: 100.0%;">MAYTIDE ST - 155 complaints</div>`)[0];
+                popup_d03b2299cfbec809440131059412a3c0.setContent(html_b92511ed76524b6f31e105027d1c8af5);
+            
+        
+
+        marker_8ac68b4003ac4316be4c0de4d3431264.bindPopup(popup_d03b2299cfbec809440131059412a3c0)
+        ;
+
+        
+    
+    
+            marker_8ac68b4003ac4316be4c0de4d3431264.bindTooltip(
+                `<div>
+                     MAYTIDE ST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8ac68b4003ac4316be4c0de4d3431264.setIcon(icon_cb5603f9da8d79e2c799d6531d9f67ac);
+            
+    
+            var marker_1e5b5a8aa567909aa268aa76d5b21dab = L.marker(
+                [40.44959326015601, -80.05224542728277],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_729d7d2eebe7e279a832c87c0366b436 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_871738afaee51b985206a14c817b4f61 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f771db40cacaceeb6bee242e4d906bd8 = $(`<div id="html_f771db40cacaceeb6bee242e4d906bd8" style="width: 100.0%; height: 100.0%;">CHARTIERS AVE - 153 complaints</div>`)[0];
+                popup_871738afaee51b985206a14c817b4f61.setContent(html_f771db40cacaceeb6bee242e4d906bd8);
+            
+        
+
+        marker_1e5b5a8aa567909aa268aa76d5b21dab.bindPopup(popup_871738afaee51b985206a14c817b4f61)
+        ;
+
+        
+    
+    
+            marker_1e5b5a8aa567909aa268aa76d5b21dab.bindTooltip(
+                `<div>
+                     CHARTIERS AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1e5b5a8aa567909aa268aa76d5b21dab.setIcon(icon_729d7d2eebe7e279a832c87c0366b436);
+            
+    
+            var marker_44c19680f2b348a57da7704499bc854a = L.marker(
+                [40.45647753124422, -79.93766339974442],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_36cfd9e11b72ed00dbcaa57f4e70c873 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_80fa6d72b9b2126781cd8daaf7e2cbf9 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_1d68d51e9dc5aa8634b660dd79f81b0b = $(`<div id="html_1d68d51e9dc5aa8634b660dd79f81b0b" style="width: 100.0%; height: 100.0%;">S AIKEN AVE - 150 complaints</div>`)[0];
+                popup_80fa6d72b9b2126781cd8daaf7e2cbf9.setContent(html_1d68d51e9dc5aa8634b660dd79f81b0b);
+            
+        
+
+        marker_44c19680f2b348a57da7704499bc854a.bindPopup(popup_80fa6d72b9b2126781cd8daaf7e2cbf9)
+        ;
+
+        
+    
+    
+            marker_44c19680f2b348a57da7704499bc854a.bindTooltip(
+                `<div>
+                     S AIKEN AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_44c19680f2b348a57da7704499bc854a.setIcon(icon_36cfd9e11b72ed00dbcaa57f4e70c873);
+            
+    
+            var marker_baf39734cf230341f78b62a6481df51d = L.marker(
+                [40.44444317911841, -79.91158622913632],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_660a14e654ecf97a8c41613fa097c2c2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3467064629215156b9a9b2a77ee4d45c = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_3a253adde8b99915206a14b3b3f520ce = $(`<div id="html_3a253adde8b99915206a14b3b3f520ce" style="width: 100.0%; height: 100.0%;">S DALLAS AVE - 149 complaints</div>`)[0];
+                popup_3467064629215156b9a9b2a77ee4d45c.setContent(html_3a253adde8b99915206a14b3b3f520ce);
+            
+        
+
+        marker_baf39734cf230341f78b62a6481df51d.bindPopup(popup_3467064629215156b9a9b2a77ee4d45c)
+        ;
+
+        
+    
+    
+            marker_baf39734cf230341f78b62a6481df51d.bindTooltip(
+                `<div>
+                     S DALLAS AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_baf39734cf230341f78b62a6481df51d.setIcon(icon_660a14e654ecf97a8c41613fa097c2c2);
+            
+    
+            var marker_5ec5397ec62748a01d41ac1a5845c926 = L.marker(
+                [40.47016903262857, -79.96330370666848],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_ad194def8438d0ef3033a25037f4f29a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45dc0ea0ab740b8e12a46e4dbe835705 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_9221b27a57b1af6a7fd16b32943b2f18 = $(`<div id="html_9221b27a57b1af6a7fd16b32943b2f18" style="width: 100.0%; height: 100.0%;">FOSTER ST - 146 complaints</div>`)[0];
+                popup_45dc0ea0ab740b8e12a46e4dbe835705.setContent(html_9221b27a57b1af6a7fd16b32943b2f18);
+            
+        
+
+        marker_5ec5397ec62748a01d41ac1a5845c926.bindPopup(popup_45dc0ea0ab740b8e12a46e4dbe835705)
+        ;
+
+        
+    
+    
+            marker_5ec5397ec62748a01d41ac1a5845c926.bindTooltip(
+                `<div>
+                     FOSTER ST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5ec5397ec62748a01d41ac1a5845c926.setIcon(icon_ad194def8438d0ef3033a25037f4f29a);
+            
+    
+            var marker_c690d6549ac04e885a7c8ad901fa6f0f = L.marker(
+                [40.46533996195585, -79.90152708692467],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_7c5777ce16fc7cc65d087d1219684507 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_df19a134ec4b7f490fab8c01e6d82ec5 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_100055094db27e9ef796e9837f9d460c = $(`<div id="html_100055094db27e9ef796e9837f9d460c" style="width: 100.0%; height: 100.0%;">LINCOLN AVE - 146 complaints</div>`)[0];
+                popup_df19a134ec4b7f490fab8c01e6d82ec5.setContent(html_100055094db27e9ef796e9837f9d460c);
+            
+        
+
+        marker_c690d6549ac04e885a7c8ad901fa6f0f.bindPopup(popup_df19a134ec4b7f490fab8c01e6d82ec5)
+        ;
+
+        
+    
+    
+            marker_c690d6549ac04e885a7c8ad901fa6f0f.bindTooltip(
+                `<div>
+                     LINCOLN AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c690d6549ac04e885a7c8ad901fa6f0f.setIcon(icon_7c5777ce16fc7cc65d087d1219684507);
+            
+    
+            var marker_5e5537d0f3cf3a93a8f0cf015e244d08 = L.marker(
+                [40.48724157299734, -80.03520629982704],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_cc732fe088bf1f3e05932dad7412d04b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ab033c0cf75c1fbc822aa1517eb0faf = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_7ae9301ef351d6f27376e5e941cd7e89 = $(`<div id="html_7ae9301ef351d6f27376e5e941cd7e89" style="width: 100.0%; height: 100.0%;">BENTON AVE - 140 complaints</div>`)[0];
+                popup_9ab033c0cf75c1fbc822aa1517eb0faf.setContent(html_7ae9301ef351d6f27376e5e941cd7e89);
+            
+        
+
+        marker_5e5537d0f3cf3a93a8f0cf015e244d08.bindPopup(popup_9ab033c0cf75c1fbc822aa1517eb0faf)
+        ;
+
+        
+    
+    
+            marker_5e5537d0f3cf3a93a8f0cf015e244d08.bindTooltip(
+                `<div>
+                     BENTON AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5e5537d0f3cf3a93a8f0cf015e244d08.setIcon(icon_cc732fe088bf1f3e05932dad7412d04b);
+            
+    
+            var marker_e16e59ddd3f255f19cd7920e0994f34c = L.marker(
+                [40.441579700225375, -79.89639248424976],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_fa7061bca2df81ec5cfc266514a8a2b1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2fb5d14ca2a143514f12b63db1cfc24f = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_ae39705f148447cadd9cb9a340d03a57 = $(`<div id="html_ae39705f148447cadd9cb9a340d03a57" style="width: 100.0%; height: 100.0%;">S BRADDOCK AVE - 134 complaints</div>`)[0];
+                popup_2fb5d14ca2a143514f12b63db1cfc24f.setContent(html_ae39705f148447cadd9cb9a340d03a57);
+            
+        
+
+        marker_e16e59ddd3f255f19cd7920e0994f34c.bindPopup(popup_2fb5d14ca2a143514f12b63db1cfc24f)
+        ;
+
+        
+    
+    
+            marker_e16e59ddd3f255f19cd7920e0994f34c.bindTooltip(
+                `<div>
+                     S BRADDOCK AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e16e59ddd3f255f19cd7920e0994f34c.setIcon(icon_fa7061bca2df81ec5cfc266514a8a2b1);
+            
+    
+            var marker_6221000257c96b9a0669c198c53aacfe = L.marker(
+                [40.441053306842456, -79.9254794349675],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_21f117ff99271185dc0080c061699d0d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a41583a5a6f6f3319709acb774e42335 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_b83573cc65ad85d86be4d30e3b6b8865 = $(`<div id="html_b83573cc65ad85d86be4d30e3b6b8865" style="width: 100.0%; height: 100.0%;">NORTHUMBERLAND ST - 129 complaints</div>`)[0];
+                popup_a41583a5a6f6f3319709acb774e42335.setContent(html_b83573cc65ad85d86be4d30e3b6b8865);
+            
+        
+
+        marker_6221000257c96b9a0669c198c53aacfe.bindPopup(popup_a41583a5a6f6f3319709acb774e42335)
+        ;
+
+        
+    
+    
+            marker_6221000257c96b9a0669c198c53aacfe.bindTooltip(
+                `<div>
+                     NORTHUMBERLAND ST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6221000257c96b9a0669c198c53aacfe.setIcon(icon_21f117ff99271185dc0080c061699d0d);
+            
+    
+            var marker_74e08de3eda555ac6dcc5e8d6584f69d = L.marker(
+                [40.453327234918085, -79.93667500714506],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_0285633cc839dc252b582a474ecb7705 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fced0b4150fa8252e94cec7386592ecc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_e034ee3fa1f2e11c2238827633aac88b = $(`<div id="html_e034ee3fa1f2e11c2238827633aac88b" style="width: 100.0%; height: 100.0%;">ELLSWORTH AVE - 127 complaints</div>`)[0];
+                popup_fced0b4150fa8252e94cec7386592ecc.setContent(html_e034ee3fa1f2e11c2238827633aac88b);
+            
+        
+
+        marker_74e08de3eda555ac6dcc5e8d6584f69d.bindPopup(popup_fced0b4150fa8252e94cec7386592ecc)
+        ;
+
+        
+    
+    
+            marker_74e08de3eda555ac6dcc5e8d6584f69d.bindTooltip(
+                `<div>
+                     ELLSWORTH AVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_74e08de3eda555ac6dcc5e8d6584f69d.setIcon(icon_0285633cc839dc252b582a474ecb7705);
+            
+    
+            var marker_e6bb77f78f06f5f799ada4987ce52c84 = L.marker(
+                [40.46646167965456, -79.95834728890996],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_5d4e387c9ca8c6ffb219ad9bb7f00643 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8c527fe549f4c3fdf758820eb3ef1585 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_f1a9d7fe3b85f4c0d2526d2a72716f2d = $(`<div id="html_f1a9d7fe3b85f4c0d2526d2a72716f2d" style="width: 100.0%; height: 100.0%;">FISK ST - 126 complaints</div>`)[0];
+                popup_8c527fe549f4c3fdf758820eb3ef1585.setContent(html_f1a9d7fe3b85f4c0d2526d2a72716f2d);
+            
+        
+
+        marker_e6bb77f78f06f5f799ada4987ce52c84.bindPopup(popup_8c527fe549f4c3fdf758820eb3ef1585)
+        ;
+
+        
+    
+    
+            marker_e6bb77f78f06f5f799ada4987ce52c84.bindTooltip(
+                `<div>
+                     FISK ST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e6bb77f78f06f5f799ada4987ce52c84.setIcon(icon_5d4e387c9ca8c6ffb219ad9bb7f00643);
+            
+    
+            var marker_42186b9e8672bb60110740fecd893c6c = L.marker(
+                [40.475405807687864, -79.92436584463005],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_adbab8097151c4e5bf7d340c2bd1861b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_95b0ebaaa8d4c26e6794aa719bd27d80 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_0b60c80bee01f0d3e0575751e382336f = $(`<div id="html_0b60c80bee01f0d3e0575751e382336f" style="width: 100.0%; height: 100.0%;">HAMPTON ST - 124 complaints</div>`)[0];
+                popup_95b0ebaaa8d4c26e6794aa719bd27d80.setContent(html_0b60c80bee01f0d3e0575751e382336f);
+            
+        
+
+        marker_42186b9e8672bb60110740fecd893c6c.bindPopup(popup_95b0ebaaa8d4c26e6794aa719bd27d80)
+        ;
+
+        
+    
+    
+            marker_42186b9e8672bb60110740fecd893c6c.bindTooltip(
+                `<div>
+                     HAMPTON ST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_42186b9e8672bb60110740fecd893c6c.setIcon(icon_adbab8097151c4e5bf7d340c2bd1861b);
+            
+    
+            var marker_a0e01d64f1557fc610b187f377d11283 = L.marker(
+                [40.444904244455756, -79.96304670276322],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_727251614d354a4e09d8366a757bb505 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3f5f4769e30631b7a73c9205707a9725 = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_83fdbc260aa65fc1efeb91e57baa0426 = $(`<div id="html_83fdbc260aa65fc1efeb91e57baa0426" style="width: 100.0%; height: 100.0%;">ALLEQUIPPA ST - 123 complaints</div>`)[0];
+                popup_3f5f4769e30631b7a73c9205707a9725.setContent(html_83fdbc260aa65fc1efeb91e57baa0426);
+            
+        
+
+        marker_a0e01d64f1557fc610b187f377d11283.bindPopup(popup_3f5f4769e30631b7a73c9205707a9725)
+        ;
+
+        
+    
+    
+            marker_a0e01d64f1557fc610b187f377d11283.bindTooltip(
+                `<div>
+                     ALLEQUIPPA ST
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a0e01d64f1557fc610b187f377d11283.setIcon(icon_727251614d354a4e09d8366a757bb505);
+            
+    
+            var marker_050afb37482c4bb9a22dfcbee4a643a9 = L.marker(
+                [40.379574034475866, -79.9184290448657],
+                {
+}
+            ).addTo(map_73932f1cc8139cbc4a4e8253ba0f1689);
+        
+    
+            var icon_4f51935107a8c131aeeb68e546a01a6f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "exclamation-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_8d7e8faaadedfc11b27f20994ca856cc = L.popup({
+  "maxWidth": 250,
+});
+
+        
+            
+                var html_68b8839d1fa0fe4788ad921a3456416d = $(`<div id="html_68b8839d1fa0fe4788ad921a3456416d" style="width: 100.0%; height: 100.0%;">MOONEY RD - 122 complaints</div>`)[0];
+                popup_8d7e8faaadedfc11b27f20994ca856cc.setContent(html_68b8839d1fa0fe4788ad921a3456416d);
+            
+        
+
+        marker_050afb37482c4bb9a22dfcbee4a643a9.bindPopup(popup_8d7e8faaadedfc11b27f20994ca856cc)
+        ;
+
+        
+    
+    
+            marker_050afb37482c4bb9a22dfcbee4a643a9.bindTooltip(
+                `<div>
+                     MOONEY RD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_050afb37482c4bb9a22dfcbee4a643a9.setIcon(icon_4f51935107a8c131aeeb68e546a01a6f);
+            
+</script>
+</html>
